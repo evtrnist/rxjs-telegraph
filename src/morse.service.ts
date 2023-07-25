@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
-import { MORSE_MAP } from './morse-token';
+import { MORSE_MAP } from './morse-map.token';
 
 @Injectable({ providedIn: 'root' })
 export class MorseService extends Subject<readonly (0 | 1)[]> {
